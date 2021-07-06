@@ -1,0 +1,66 @@
+html {
+  font-size: 1.3em;
+  width:100%;
+  border: 1px solid grey;
+  height: 85%;
+}
+
+.borderRed {
+  border-color: red;
+}
+.hide {
+  display: none !important;
+}
+.succes-message {
+  border: 2px solid rgba(0, 128, 0, 0.287);
+  height: 40px;
+  width: 640px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  background-color: #5cb85c67;
+  border-radius: 10px;
+  text-align: center;
+  text
+}
+.name {
+  padding: 20px;
+  width: 600px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+#male {
+  margin-bottom: 30px;
+}
+#female {
+  margin-left: 101px;
+  margin-bottom: 30px;
+}
+#gender {
+  margin-left: 30px;
+}
+#textarea {
+  margin-left: 23px;
+  width: 634px;
+  height: 186px;
+}
+#button-submit {
+  margin-top: 20px;
+  margin-left: 526px;
+  border-radius: 25px;
+  border: 2px solid rgba(0, 128, 0, 0.404);
+  background-color: rgba(0, 128, 0, 0.404);
+  padding: 10px 10px;
+  width: 150px;
+}
+#img {
+  position: absolute;
+  left: 699px;
+  width: 736px;
+  bottom: 382px;
+  height: 491px;
+}
+
+div.form-box {
+  margin-top: 50px;
+}

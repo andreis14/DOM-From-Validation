@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="scripts/main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="form-box">
+      <div id="succesMessage" class="succes-message hide">
+        <span id="spanFirstName"></span>
+      </div>
+      <input
+        id="firstName"
+        type="text"
+        name="firstName"
+        value=""
+        placeholder="First Name"
+        class="name"
+      />
+      <br />
+      <input
+        id="lastName"
+        type="text"
+        name="lastName"
+        value=""
+        placeholder="Last Name"
+        class="name"
+      />
+      <br />
+      <label for="" id="gender">Gender</label>
+
+      <input type="radio" id="male" name="gender" value="male" />M <br />
+
+      <input type="radio" id="female" name="gender" value="female" />F
+      <br />
+      <textarea name="" id="textarea" rows="4" cols="50"> </textarea>
+      <br />
+
+      <button id="button-submit" onclick="handleClickSubmit()">Submit</button>
+    </div>
+    <img src="img/48396304_101.jpg" id="img" alt="" />
+  </body>
+</html>
